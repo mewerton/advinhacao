@@ -13,7 +13,6 @@ document.addEventListener('keydown',clickEnter)
 function clickEnter(enter){
     if(enter.key == 'Enter'){
         handleResetClick()
-        
     }
     
 }
@@ -34,7 +33,6 @@ function handleTryClick(event){
     
     inputNumber.value = ""
     xAttempts++
-
 }
 
 function handleResetClick(){
