@@ -14,7 +14,6 @@ function clickEnter(enter){
     if(enter.key == 'Enter'){
         handleResetClick()
     }
-    
 }
 
 function handleTryClick(event){
